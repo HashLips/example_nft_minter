@@ -43,9 +43,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"last_completed_migration\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"completed\",\"type\":\"uint256\"}],\"name\":\"setCompleted\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/danielbotha/Desktop/Dapp/frontend_base_dapp/contracts/Migrations.sol\":\"Migrations\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/danielbotha/Desktop/Dapp/frontend_base_dapp/contracts/Migrations.sol\":{\"keccak256\":\"0x7eaedbb1a3e4e0f585d9063393872f88ded247ca3c3c3c8492ea18e7629a6411\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4a3eb571cee910095df65a06a1c1d3f89187c72a3c184ef87a7538d9aa39ad07\",\"dweb:/ipfs/QmdqR3vrSSGR49qFGZr49Mb39z7dgD6tSzEDoaqtM31o61\"]}},\"version\":1}",
-  "bytecode": "0x6080604052600080546001600160a01b0319163317905534801561002257600080fd5b50610199806100326000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610064578063fdacd57614610079575b600080fd5b61004e61008e565b60405161005b919061015a565b60405180910390f35b61006c610094565b60405161005b91906100f3565b61008c6100873660046100db565b6100a3565b005b60015481565b6000546001600160a01b031681565b6000546001600160a01b031633146100d65760405162461bcd60e51b81526004016100cd90610107565b60405180910390fd5b600155565b6000602082840312156100ec578081fd5b5035919050565b6001600160a01b0391909116815260200190565b60208082526033908201527f546869732066756e6374696f6e206973207265737472696374656420746f207460408201527234329031b7b73a3930b1ba13b99037bbb732b960691b606082015260800190565b9081526020019056fea2646970667358221220937e40b37b86f46090d34f4f5045171d3e2180264c141285f8feaff10904bb1064736f6c63430008000033",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610064578063fdacd57614610079575b600080fd5b61004e61008e565b60405161005b919061015a565b60405180910390f35b61006c610094565b60405161005b91906100f3565b61008c6100873660046100db565b6100a3565b005b60015481565b6000546001600160a01b031681565b6000546001600160a01b031633146100d65760405162461bcd60e51b81526004016100cd90610107565b60405180910390fd5b600155565b6000602082840312156100ec578081fd5b5035919050565b6001600160a01b0391909116815260200190565b60208082526033908201527f546869732066756e6374696f6e206973207265737472696374656420746f207460408201527234329031b7b73a3930b1ba13b99037bbb732b960691b606082015260800190565b9081526020019056fea2646970667358221220937e40b37b86f46090d34f4f5045171d3e2180264c141285f8feaff10904bb1064736f6c63430008000033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"last_completed_migration\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"completed\",\"type\":\"uint256\"}],\"name\":\"setCompleted\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/danielbotha/Desktop/files/Personal/wip/Dapp/frontend_base_dapp/contracts/Migrations.sol\":\"Migrations\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/danielbotha/Desktop/files/Personal/wip/Dapp/frontend_base_dapp/contracts/Migrations.sol\":{\"keccak256\":\"0x7eaedbb1a3e4e0f585d9063393872f88ded247ca3c3c3c8492ea18e7629a6411\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4a3eb571cee910095df65a06a1c1d3f89187c72a3c184ef87a7538d9aa39ad07\",\"dweb:/ipfs/QmdqR3vrSSGR49qFGZr49Mb39z7dgD6tSzEDoaqtM31o61\"]}},\"version\":1}",
+  "bytecode": "0x6080604052600080546001600160a01b0319163317905534801561002257600080fd5b50610199806100326000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610064578063fdacd57614610079575b600080fd5b61004e61008e565b60405161005b919061015a565b60405180910390f35b61006c610094565b60405161005b91906100f3565b61008c6100873660046100db565b6100a3565b005b60015481565b6000546001600160a01b031681565b6000546001600160a01b031633146100d65760405162461bcd60e51b81526004016100cd90610107565b60405180910390fd5b600155565b6000602082840312156100ec578081fd5b5035919050565b6001600160a01b0391909116815260200190565b60208082526033908201527f546869732066756e6374696f6e206973207265737472696374656420746f207460408201527234329031b7b73a3930b1ba13b99037bbb732b960691b606082015260800190565b9081526020019056fea2646970667358221220ee001f963f5eed59be912696965463503329a90470228fcf329a102ad99d9bfb64736f6c63430008000033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610064578063fdacd57614610079575b600080fd5b61004e61008e565b60405161005b919061015a565b60405180910390f35b61006c610094565b60405161005b91906100f3565b61008c6100873660046100db565b6100a3565b005b60015481565b6000546001600160a01b031681565b6000546001600160a01b031633146100d65760405162461bcd60e51b81526004016100cd90610107565b60405180910390fd5b600155565b6000602082840312156100ec578081fd5b5035919050565b6001600160a01b0391909116815260200190565b60208082526033908201527f546869732066756e6374696f6e206973207265737472696374656420746f207460408201527234329031b7b73a3930b1ba13b99037bbb732b960691b606082015260800190565b9081526020019056fea2646970667358221220ee001f963f5eed59be912696965463503329a90470228fcf329a102ad99d9bfb64736f6c63430008000033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -665,9 +665,9 @@
   "sourceMap": "66:352:0:-:0;;;90:33;;;-1:-1:-1;;;;;;90:33:0;113:10;90:33;;;66:352;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "66:352:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;127:36;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;90:33;;;:::i;:::-;;;;;;;:::i;313:103::-;;;;;;:::i;:::-;;:::i;:::-;;127:36;;;;:::o;90:33::-;;;-1:-1:-1;;;;;90:33:0;;:::o;313:103::-;225:5;;-1:-1:-1;;;;;225:5:0;211:10;:19;196:101;;;;-1:-1:-1;;;196:101:0;;;;;;;:::i;:::-;;;;;;;;;375:24:::1;:36:::0;313:103::o;14:190:14:-;;126:2;114:9;105:7;101:23;97:32;94:2;;;147:6;139;132:22;94:2;-1:-1:-1;175:23:14;;84:120;-1:-1:-1;84:120:14:o;209:203::-;-1:-1:-1;;;;;373:32:14;;;;355:51;;343:2;328:18;;310:102::o;417:415::-;619:2;601:21;;;658:2;638:18;;;631:30;697:34;692:2;677:18;;670:62;-1:-1:-1;;;763:2:14;748:18;;741:49;822:3;807:19;;591:241::o;837:177::-;983:25;;;971:2;956:18;;938:76::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Migrations {\n  address public owner = msg.sender;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    require(\n      msg.sender == owner,\n      \"This function is restricted to the contract's owner\"\n    );\n    _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}\n",
-  "sourcePath": "/Users/danielbotha/Desktop/Dapp/frontend_base_dapp/contracts/Migrations.sol",
+  "sourcePath": "/Users/danielbotha/Desktop/files/Personal/wip/Dapp/frontend_base_dapp/contracts/Migrations.sol",
   "ast": {
-    "absolutePath": "/Users/danielbotha/Desktop/Dapp/frontend_base_dapp/contracts/Migrations.sol",
+    "absolutePath": "/Users/danielbotha/Desktop/files/Personal/wip/Dapp/frontend_base_dapp/contracts/Migrations.sol",
     "exportedSymbols": {
       "Migrations": [
         32
@@ -1055,7 +1055,7 @@
     "src": "32:387:0"
   },
   "legacyAST": {
-    "absolutePath": "/Users/danielbotha/Desktop/Dapp/frontend_base_dapp/contracts/Migrations.sol",
+    "absolutePath": "/Users/danielbotha/Desktop/files/Personal/wip/Dapp/frontend_base_dapp/contracts/Migrations.sol",
     "exportedSymbols": {
       "Migrations": [
         32
@@ -1447,15 +1447,15 @@
     "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
   },
   "networks": {
-    "1630447513564": {
+    "1630607422925": {
       "events": {},
       "links": {},
-      "address": "0x900FbD34Cf20F9Da907251a5A53d5DDe55776a7C",
-      "transactionHash": "0xb5f0ffeec3a891f2cd3bf6eb389421204eac58871b4098da6a2e7e1262065638"
+      "address": "0x220a0103a6692a7a9623e9c1D3C596136be37B68",
+      "transactionHash": "0x55b5b2dbdc91010e491ecb5b4065873ee94241b679a46f244ab12d1102e92107"
     }
   },
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-08-31T22:34:37.801Z",
+  "updatedAt": "2021-09-02T22:12:08.035Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
