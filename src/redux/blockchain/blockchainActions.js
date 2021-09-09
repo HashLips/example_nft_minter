@@ -1,6 +1,7 @@
 // constants
+import Web3EthContract from "web3-eth-contract";
 import Web3 from "web3";
-import SmartContract from "../../contracts/LunaLanders.json";
+import SmartContract from "../../contracts/NCC.json";
 // log
 import { fetchData } from "../data/dataActions";
 
@@ -37,6 +38,7 @@ export const connect = () => {
     const { ethereum } = window;
     const metamaskIsInstalled = ethereum && ethereum.isMetaMask;
     if (metamaskIsInstalled) {
+      Web3EthContract.setProvider(ethereum);
       let web3 = new Web3(ethereum);
       try {
         const accounts = await ethereum.request({
@@ -45,13 +47,11 @@ export const connect = () => {
         const networkId = await ethereum.request({
           method: "net_version",
         });
-        const NetworkData = await SmartContract.networks[networkId];
-        // if (networkId == 1) {
-        if (NetworkData) {
-          const SmartContractObj = new web3.eth.Contract(
-            SmartContract.abi,
-            NetworkData.address
-            // "0x6020371b0e8a2fc259a6b111d178bba9c966a4a4"
+        // const NetworkData = await SmartContract.networks[networkId];
+        if (networkId == 137) {
+          const SmartContractObj = new Web3EthContract(
+            SmartContract,
+            "0x827acb09a2dc20e39c9aad7f7190d9bc53534192"
           );
           dispatch(
             connectSuccess({
@@ -69,7 +69,7 @@ export const connect = () => {
           });
           // Add listeners end
         } else {
-          dispatch(connectFailed("Change network to Ethereum."));
+          dispatch(connectFailed("Change network to Polygon."));
         }
       } catch (err) {
         dispatch(connectFailed("Something went wrong."));

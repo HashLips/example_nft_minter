@@ -1,24 +1,20 @@
 // SPDX-License-Identifier: GPL-3.0
 
-/**
- 
- *Luna Landers by LunaLand (LLN)
- *
- * 10,000 Lunalanders flying through the Metaverse.
-*/
+// Created by HashLips
+// The Nerdy Coder Clones
 
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract LunaLanders is ERC721Enumerable, Ownable {
+contract NerdyCoderClones is ERC721Enumerable, Ownable {
   using Strings for uint256;
 
   string public baseURI;
   string public baseExtension = ".json";
-  uint256 public cost = 0.05 ether;
-  uint256 public maxSupply = 10000;
+  uint256 public cost = 100 ether;
+  uint256 public maxSupply = 1000;
   uint256 public maxMintAmount = 20;
   bool public paused = false;
   mapping(address => bool) public whitelisted;
@@ -28,10 +24,8 @@ contract LunaLanders is ERC721Enumerable, Ownable {
     string memory _symbol,
     string memory _initBaseURI
   ) ERC721(_name, _symbol) {
-     
     setBaseURI(_initBaseURI);
-   
-    mint(msg.sender, 3);
+    mint(msg.sender, 20);
   }
 
   // internal
